@@ -1,0 +1,21 @@
+# navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# list only directories
+alias lsd='ls -lF | grep --color=never "^d"'
+
+# find command in history
+alias gh='history|grep'
+
+# sort by modification time
+alias left='ls -t -1 -l'
+
+# Git
+alias gs='git status'
+alias gcm='git commit -m'
+alias gl='git log'
+
+# Misspelling
+alias tmus='tmux'
